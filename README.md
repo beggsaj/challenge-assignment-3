@@ -11,5 +11,7 @@ Javascript
 Website
 https://beggsaj.github.io/challenge-assignment-3/
 
+Images
+
 Contribution
 Made by Abigail Beggs
