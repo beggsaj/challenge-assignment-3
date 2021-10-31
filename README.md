@@ -9,7 +9,7 @@ CSS
 Javascript
 
 Website
-https://beggsaj.github.io/challenge-assignment-3/
+https://beggsaj.github.io/challenge-assignment-3-random-password-generator/
 
 Images
 
