@@ -9,18 +9,20 @@ function generatePassword() {
   var finalArray = [];
   var userArray = [];
 
-  uppercaseArray[1]
-  //-----------------------------------------------------------------
   var totalCharacters = prompt("How many characters do you want your password to be?", "Please enter a number between 8 and 128");
- // if (totalCharacters <= 0) {
-  //  window.alert("NA");
+  if (totalCharacters < 8) {
+    window.alert("password length should be between 8 and 128 characters")
+    return null;
+  };
+  if (totalCharacters > 128) {
+    window.alert("password length should be between 8 and 128 characters")
+    return null;
+  };
   var numbers = confirm("Do you to want include numbers in your password?");
   var uppercase = confirm("Do you want to include uppercase letters in your password?");
   var lowercase = confirm("Do you want to include lowercase letters in your password?");
   var specialCharacters = confirm("Do you want to include special characters in your password?");
 
-
-  // condition of the array
 
   if (numbers) {
     finalArray = finalArray.concat(numbArray);
