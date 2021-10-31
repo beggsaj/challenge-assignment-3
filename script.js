@@ -29,7 +29,7 @@ function generatePassword() {
   var lowercase = confirm("Do you want to include lowercase letters in your password?");
   var specialCharacters = confirm("Do you want to include special characters in your password?");
 
-//if statements to build out the password based on the answers to the prompts and confirmations
+  //building out the password based on the answers to the prompts and confirmations
 
   if (numbers) {
     finalArray = finalArray.concat(numbArray);
@@ -50,8 +50,6 @@ function generatePassword() {
     finalArray = finalArray.concat(characterArray);
   }
   console.log(finalArray)
-
-  //
 
   for (var i = 0; i < totalCharacters; i++) {
 
